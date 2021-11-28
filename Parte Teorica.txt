@@ -1,0 +1,11 @@
+1. ¿Que tipos de errores se presentan o se pueden presentar con su implementacion al problema?
+	Se pueden presentar errores de sintaxis, donde por equivocación se hace tab en un comando el cual lo piensa
+	como parte de un comando anterior y tambien prsenta errores al momento de la ejecucion, ya sea porque el texto
+	ingresado no coincide con el texto que se evalua en los if, por lo que muestra un error o no corre el codigo
+	de la manera esperado.
+
+2. ¿Que estrategias podría usar para solucionar estos errores?
+	Para solucionar estos errores, en el caso de los errores de sintaxis, lo mejor es ir depurando el codigo, para encontrar en donde
+	esta mal escrito el codigo o donde se ocasiona el error, y para solucionar los problemas de ejecucion, en mi caso, al momenton de
+	solicitar una información por el usuario, lo que se hace es especificar la forma de escritura o las opciones que se esperan obtener
+	para que el usuario las digite de la misma forma, por ejemplo el uso o no de mayusculas, numeros o numeros y letras juntos.
